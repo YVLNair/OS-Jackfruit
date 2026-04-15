@@ -2,7 +2,7 @@
 
 ## 1. Team Information
 - Sarang S Nair - PES2UG24CS447
-- Sarang S Nair - PES2UG24CS467
+- Shibi Shetty - PES2UG24CS467
 
 ---
 
