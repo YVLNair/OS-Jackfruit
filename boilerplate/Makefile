@@ -5,6 +5,11 @@ all:
 	gcc cpu_hog.c -o cpu_hog
 	gcc memory_hog.c -o memory_hog
 
+ci:
+	gcc engine.c -o engine
+	gcc cpu_hog.c -o cpu_hog
+	gcc memory_hog.c -o memory_hog
+
 kernel:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 
