@@ -24,7 +24,7 @@ make
 
 ### Load Kernel Module
 ```bash
-sudo insmod container_monitor.ko
+sudo insmod monitor.ko
 dmesg | tail
 ```
 
